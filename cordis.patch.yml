@@ -1,0 +1,7 @@
+# Install the Host overlay policy service and its Web Client page.
+# It does not patch, replace, or disable any built-in Agent preset.
+- insert:
+    - id: preset-studio
+      name: '@local/dsh-preset-studio'
+      config:
+        policies: []
